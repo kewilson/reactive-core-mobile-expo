@@ -1,0 +1,3 @@
+[submodule "app/core-module"]
+	path = app/core-module
+	url = /home/krw/Source/git/public/misc/reactive-core/core-mobile-expo/app/../../core-module
