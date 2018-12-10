@@ -1,4 +1,4 @@
-import { Platform, StyleSheet } from 'react-native'
+import {Platform, StyleSheet} from 'react-native'
 import Colors from './colors'
 
 export default StyleSheet.create({
@@ -11,7 +11,7 @@ export default StyleSheet.create({
     cellTitle: {
         color: Colors.text.highlight.dark,
         //fontFamily: 'fira-sans-regular',
-        fontFamily: 'space-mono',
+        fontFamily: 'sans-serif',
         fontSize: 16,
         marginTop: 5
     },
@@ -57,7 +57,7 @@ export default StyleSheet.create({
         color: Colors.text.primary.light,
         fontSize: 16,
         //fontFamily: 'fira-sans-bold',
-        fontFamily: 'space-mono',
+        fontFamily: 'sans-serif',
         marginRight: 10
     }
 });

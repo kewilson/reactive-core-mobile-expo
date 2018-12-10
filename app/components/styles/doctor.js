@@ -1,4 +1,4 @@
-import { StyleSheet } from 'react-native'
+import {StyleSheet} from 'react-native'
 import Colors from './colors'
 
 export default StyleSheet.create({
@@ -10,7 +10,7 @@ export default StyleSheet.create({
     header: {
         color: Colors.text.highlight.dark,
         //fontFamily: 'fira-sans-bold',
-        fontFamily: 'space-mono',
+        fontFamily: 'sans-serif',
         fontSize: 50,
         fontWeight: 'bold'
     },
@@ -30,14 +30,14 @@ export default StyleSheet.create({
     title: {
         color: Colors.text.highlight.dark,
         //fontFamily: 'fira-sans-bold',
-        fontFamily: 'space-mono',
+        fontFamily: 'sans-serif',
         fontSize: 18,
         fontWeight: 'bold'
     },
     text: {
         color: Colors.text.primary.light,
         //fontFamily: 'fira-sans-light',
-        fontFamily: 'space-mono',
+        fontFamily: 'sans-serif',
         fontSize: 16,
         paddingBottom: 20,
         paddingTop: 5
